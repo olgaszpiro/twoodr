@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  width: 100%;
+  border: 1px solid lightgray;
+  font-size: 3em;
+  vertical-align: middle;
+}
+
+.twoodr-logo {
+  height: 150px;
+}
+
+.twoodr-title {
+  text-align: center;
+  width: 100%;
+  vertical-align: top;
+  color: lightblue;
+}
+
+.container {
+  width: 40%;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%) 
+}
+
+#display-twood {
+  width: 100%;
+  border: 1px solid lightgray;
+  font-size: 2em;
+  text-align: center;
+  padding: 4em 0;
+}
+
+#new-twood {
+  width: 100%;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+#twood-input {
+  height: 2em;
+  padding: 1em;
+  margin: 1em;
+}
+
+#submit-twood {
+  font-size: 2em;
+  background-color: lightblue;
+}
