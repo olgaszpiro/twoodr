@@ -31,12 +31,12 @@ h1 {
   transform: translate(-50%, 0%) 
 }
 
-#display-twood {
+.twood {
   width: 100%;
   border: 1px solid lightgray;
   font-size: 2em;
   text-align: center;
-  padding: 4em 0;
+  padding: 1em 0;
 }
 
 #new-twood {
@@ -54,4 +54,21 @@ h1 {
 #submit-twood {
   font-size: 2em;
   background-color: lightblue;
+}
+
+.cutoff {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  border: 3px solid darkblue;
+  background: white;
+  font-size: 4em;
+  text-align: center;
+  padding: 4em;
+}
+
+.hidden {
+  display: none;
 }
