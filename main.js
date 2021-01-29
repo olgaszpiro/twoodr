@@ -12,9 +12,12 @@ console.log("The button was clicked")
 }
 )
 
+setTimeout(function() {
+    document.querySelector('.cutoff').classList.remove('hidden')
+}, 2000)
 
-
-
+// setTimeout(function(){ 
+//     alert("Hello"); }, 3000);
 
 
 
